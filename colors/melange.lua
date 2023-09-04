@@ -332,7 +332,7 @@ for name, attrs in pairs {
   IndentBlanklineSpaceCharBlankline = 'IndentBlanklineChar',
 
   ---- CUSTOM CHANGES ----------------------------------------
-  ['@field'] = {guifg = #85B695},
+  ['@field'] = {guifg = '#85B695'},
   
 } do
   if type(attrs) == 'table' then
