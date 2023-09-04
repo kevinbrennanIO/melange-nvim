@@ -330,6 +330,10 @@ for name, attrs in pairs {
   IndentBlanklineChar = { fg = a.sel, nocombine = true },
   IndentBlanklineSpaceChar = 'IndentBlanklineChar',
   IndentBlanklineSpaceCharBlankline = 'IndentBlanklineChar',
+
+  ---- CUSTOM CHANGES ----------------------------------------
+  ['@field'] = {guifg = #85B695},
+  
 } do
   if type(attrs) == 'table' then
     vim.api.nvim_set_hl(0, name, attrs)
