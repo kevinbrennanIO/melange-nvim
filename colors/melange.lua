@@ -333,6 +333,28 @@ for name, attrs in pairs {
 
   ---- CUSTOM CHANGES ----------------------------------------
   ['@field'] = {fg = '#85B695'},
+  Visual = { gui = reverse, bg = '#2c3542' }
+--   vim.cmd([[ highlight Comment guifg=#867462 guibg=#34302C ]])
+--   vim.cmd([[ highlight Function guifg=#85b695 ]])
+--   vim.cmd([[ highlight @keyword.function guifg=#a39b94 ]])
+--   vim.cmd([[ highlight @field guifg=#85B695 ]])
+--   vim.cmd([[ highlight @constant guifg=#CF9BC2 ]])
+--   vim.cmd([[ highlight Normal guibg=NONE]])
+--   vim.cmd([[ highlight IlluminatedWordText guibg=#4a4137 ]])
+--   vim.cmd([[ highlight IlluminatedWordRead guibg=#4a4137]])
+--   vim.cmd([[ highlight IlluminatedWordWrite guibg=#4a4137 ]])
+--   vim.cmd([[ highlight String gui=NONE ]])
+--   vim.cmd([[ highlight NeoTreeGitUntracked guifg=#E49B5D gui=NONE]])
+--   vim.cmd([[ highlight NormalFloat guibg=NONE]])
+--   vim.cmd([[ highlight ColorColumn guibg=#282828]])
+--   vim.cmd([[ highlight NonText guifg=#000000]])
+--
+--   -- vim.cmd([[ highlight DiagnosticInfo gui=reverse ]])
+--   -- vim.cmd([[ highlight DiagnosticError gui=reverse ]])
+--   -- vim.cmd([[ highlight DiagnosticHint gui=reverse ]])
+--   -- vim.cmd([[ highlight DiagnosticOk gui=reverse ]])
+--   -- vim.cmd([[ highlight DiagnosticWarn gui=reverse ]])
+
   
 } do
   if type(attrs) == 'table' then
