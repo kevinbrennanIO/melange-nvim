@@ -333,7 +333,7 @@ for name, attrs in pairs {
 
   ---- CUSTOM CHANGES ----------------------------------------
   ['@field'] = {fg = '#85B695'},
-  Visual = { gui = reverse, bg = '#2c3542' }
+  Visual = { gui = reverse, bg = '#2c3542' },
 --   vim.cmd([[ highlight Comment guifg=#867462 guibg=#34302C ]])
 --   vim.cmd([[ highlight Function guifg=#85b695 ]])
 --   vim.cmd([[ highlight @keyword.function guifg=#a39b94 ]])
